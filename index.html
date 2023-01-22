@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="site-main-wrapper">
+        <div class="hamburger">
+            <button class="hamburger-button">
+            <img src="./images/hamberger.svg" alt="">
+        </button>
+        </div>
+        <div class="mobile-nav">
+            <button class="times">
+                <img src="./images/times.svg" alt="">
+            </button>
+            <ul>
+                <li><a href="#home" class="menu-home">Home</a></li>
+                <li><a href="#about" class="menu-about">About</a></li>
+                <li><a href="#skills" class="menu-skills">Skills</a></li>
+                <li><a href="#project" class="menu-project">Projects</a></li>
+                <li><a href="#contact" class="menu-contact">Contact</a></li>
+            </ul>
+        </div>
+    <!--Hero Section-->
+    <header id="home">
+        <div class="container">
+            <nav id="main-nav" class="flex items-center space-between">
+                <div class="left flex items-center">
+                    <div>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#project">Projects</a>
+                    </div>
+
+                </div>
+                <div class="right">
+                    <a href="#contact">
+                        <button class="btn btn-primary">Contact</button>
+                    </a>
+                </div>
+            </nav>
+            <div class="hero flex items-center space-between ">
+                <div class="left flex-1 justify-center">
+                    <img src="./images/img.svg" alt="">
+                </div>
+                <div class="right flex-1">
+                    <h6>Rohan Chakraborty</h6>
+                    <h1>I'm a Python <span>Developer</span></h1>
+                    <div>
+                        <a href="" download="resume">
+                            <button class="btn btn-secondary">Download CV</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--About Section-->
+    <section class="about" id="about">
+        <div class="container flex items-center">
+            <div class="left flex-1">
+                <img src="./images/IMG_0626.png" alt="">
+            </div>
+            <div class="right flex-1">
+                    <h1>About <span>Me</span></h1>
+                    <h3>Hello I'm Rohan Chakraborty</h3>
+                    <p>I'm an enthusiastic undergraduate student at ULM with entrepreneurial mindset and problem solving skills aspiring to be a software developer at platforms like Web, Desktop and Mobile Application.
+                       Flexible and open to learning new technologies and exploring further into the realm of computer science.<br><br>
+                        Perseverance and Consistency best defines me.</p>
+                <div class="social" flex>
+                    <a target = "_blank" href="https://www.linkedin.com/in/rohan-chakraborty-899a92260/"><img src="./images/linkedin.png"></a>
+                    <a target = "_blank" href="https://github.com/rohanchakraborty753"><img src="./images/github.png"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Skills Section-->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h1 class="section-heading">My <span>Skills</span></h1>
+            <p>Important skills possessed by me.</p>
+            <div class="card-wrapper">
+                <div class="card">
+                    <img src="./images/code.png" alt="">
+                    <h2>Programming</h2>
+                    <p>Python<br>Java<br>HTML5<br>CSS3<br>javascript</p>
+                </div>
+                <div class="card">
+                    <img src="./images/code.png" alt="">
+                    <h2>Graphic Designing</h2>
+                    <p>Adobe Illustrator<br>Adobe Photoshop</p>
+                </div>
+                <div class="card">
+                    <img src="./images/code.png" alt="">
+                    <h2>Technical Skills</h2>
+                    <p>Tkinter<br>BeautifulSoup<br>Selenium<br>Turtle Graphics<br>sqlite</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Projects Section-->
+    <section class="project" id="project">
+        <div class="container">
+            <h1>Projects</h1>
+            <div class="slider">
+                <div class="slide">
+                    <img src="./images/portfolio.png" alt="">
+                    <h2>Portfolio-Website</h2>
+                    <p>A portfolio website designed using HTML, CSS and Javascript.</p>
+                    <br>
+                    <a href="#contact">
+                        <button class="btn btn-secondary">Code</button>
+                    </a>
+                </div>
+
+                <div class="slide">
+                    <img src="./images/coin.png" alt="">
+                    <h2>Coin Portfolio</h2>
+                    <p>GUI-based crypto tracking portfolio app which uses coinmarketcap API to update the data and maintain the portfolio. 
+                       It consists of features of adding coins, updating coins and deleting coins. It is programmed in python with the
+                       Tkinter module and also stores the data on database using sqlite.  
+                    </p><br>
+                    <a href="#contact">
+                        <button class="btn btn-secondary">Code</button>
+                    </a>
+                </div>
+
+                <div class="slide">
+                    <img src="./images/calculator.png" alt="">
+                    <h2>GUI-Calculator</h2>
+                    <p>A simple GUI Caluclator which performs basic functions using python and Tkinter</p>
+                    <br>
+                    <a href="#contact">
+                        <button class="btn btn-secondary">Code</button>
+                    </a>
+                </div>
+
+                <div class="slide">
+                    <img src="./images/tictactoe.png" alt="">
+                    <h2>TIC-TAC-TOE</h2>
+                    <p>TicTacToe game using python utilizing the concepts of lists, sets, arrays and random module where you play against computer. </p>
+                    <br>
+                    <a href="#contact">
+                        <button class="btn btn-secondary">Code</button>
+                    </a>
+                </div>
+            </div>
+            <div class="slider-dot"></div>
+        </div>
+    </section>
+    <!--Contact Section-->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h1 class="section-heading">Contact <span>Me</span></h1>
+            <div class="card-wrapper">
+                <div class="card">
+                    <img src="./images/gmail.png" alt="">
+                    <h2>Email Me</h2>
+                    <h4>emailme.rohanchakraborty@gmail.com</h4>
+                </div>
+            </div>
+            <form action="">
+                <div class="input-wrap">
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Your Email">
+                </div>
+                <div class="input-wrap-2">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                </div>
+                <div class="button-wrapper">
+                    <button class="btn btn-primary">Send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--Footer Section-->
+    <footer>
+        <div class="footer-text">
+            Copyright 2023 @ Rohan Chakraborty. All Rights Reserved
+        </div>
+    </footer>
+</div>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
